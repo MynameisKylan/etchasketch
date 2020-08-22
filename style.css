@@ -1,0 +1,22 @@
+.container {
+  margin: auto;
+  height: auto;
+  width: 70%;
+  border: 2px solid blue;
+}
+
+.row {
+  margin: auto;
+  width: auto;
+  height: 20px;
+  border: 2px solid red;
+}
+
+.cell {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 6%;
+  height: 20px;
+  border: 1px solid green;
+}
