@@ -1,15 +1,24 @@
+body {
+  text-align: center;
+}
+
+h1, button {
+  padding: 5px;
+  margin: 5px;
+}
+
 .container {
-  margin: auto;
-  height: auto;
-  width: 70%;
-  border: 2px solid blue;
+  margin: 0 auto;
+  height: 90vmin;
+  width: 90vmin;
+  /* border: 1px solid blue; */
 }
 
 .row {
-  margin: auto;
-  width: auto;
-  height: 20px;
-  border: 2px solid red;
+  /* margin: auto;
+  width: auto; */
+  height: 6%;
+  /* border: 1px solid red; */
 }
 
 .cell {
@@ -17,6 +26,10 @@
   margin: 0;
   padding: 0;
   width: 6%;
-  height: 20px;
-  border: 1px solid green;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.hovered {
+  background-color: yellowgreen;
 }
